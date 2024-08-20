@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou
+        simplesmente aumente e diminua o tamanho no seu navegador.
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.jpg" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.jpg" type="image/png">
+        <img src="imagens/g.jpg" alt="imagem flexivel">
+    </picture>
+</body>
+</html>
+
+<!-- as imagens TEM QUE ESTAR na ordem da menor para a maior -->

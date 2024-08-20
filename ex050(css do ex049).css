@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body {
+    background-color: #CFB18C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    color: white;
+    text-align: center;
+    background-color: #5E3423;
+}
+
+h1 {
+    color: #5E3423;
+}
+
+h2 {
+    color: #915138;
+}
+
+p {
+    color: white;
+}
+
+/*
+    em HTML é id    = em CSS é # (id é único)
+    em HTML é class = em CSS é . (class pode ter vários)
+    consigo colocar id e class no msm elemento
+
+*/
+
+.basico {
+    color: rgb(228, 189, 86);            
+}
+
+.intermediario {
+    color: rgb(229, 153, 117);
+}
+
+.avancado {
+    color: rgb(96, 81, 62);
+}
+
+.destaque {
+    color: yellow;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!--<audio src="imagens/Apocalyptic.mp3" controls autoplay></audio>-->
+    <audio preload="metadata" autoplay>
+        <source src="imagens/Apocalyptic.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir este áudio. <a href="imagens/Apocalyptic.mp3">
+        Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
+<!--as mídias em áudio tem que estar nos formatos: MP3, WAV, OGG, para tocar em todos os navegadores-->
+<!--o comando "controls" mostra os controles do áduio"-->
+<!--ao lado de "autoplay" se colocar "loop" o áudio vai recomeçar-->
+<!--"metadata" mostra as informações do arquivo ao contrário de "none" que não mostra nada-->
