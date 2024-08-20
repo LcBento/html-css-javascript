@@ -1,2 +1,2 @@
 # visualg
- curso de lógica de programação com visualg
+ curso de html5, css3 e java script
