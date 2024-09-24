@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'RemachineScript_Personal_Use';
+    src: url(fonts/RemachineScript_Personal_Use.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    /* Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-att (Apple Advance Typography)
+    - svg*/
+}
+body {
+    background-color: rgb(205, 103, 153);
+    color: white;
+    font-family: 'RemachineScript_Personal_Use', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+}
+h1 {
+    font-family: 'RemachineScript_Personal_Use', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}

@@ -1,0 +1,42 @@
+/*safe combination*/
+body{
+    background-color: rgb(205, 103, 153);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    medidas absolutas
+    cm, mm, in, px, pt, pc
+    16px geralmente = 1em
+
+    medidas relativas
+    em, ex, rem, vw,vh, %
+
+    a recomendação é utilizar medidas em PX e EM
+
+    font-style: italic;
+    font-size: 16px;
+    /*font-weight: ;
+    a fonte 'work sans' tem todos os tamanhos: lighter, normal, bold, bolder
+    e também tem a medida numérica que vai de 100 a 900
+    weight(peso), width(largura) height(altura)
+    text-decoration: underline;*/
+
+    h1 {
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        
+    }
+
+    /* shorthand font
+        vai colocar primeiro o font style -> font weight -> font size -> font family
+        
+        font: italic bolder 3em 'work sans', sans serif;
+        */
+
+    h2 {
+        font: italic bolder 3em Arial, Helvetica, sans-serif
+    }
+}
