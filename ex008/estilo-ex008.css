@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(205, 103, 153);
+    color: white;
+    font: normal 18pt Arial;
+}
+input {
+    font: normal 18pt Arial;
+    width: 100px;
+}
+div#res {
+    margin-top: 20px;
+}

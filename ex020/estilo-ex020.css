@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(205, 103, 153);
+    color: white;
+    font: normal 10pt Arial;
+}
+h1 {
+    color: white;
+}
+
+/*mark {
+    background-color: fuchsia;
+}
+(essa confg nesta posição coloca todos os marks na cor escolhida)*/

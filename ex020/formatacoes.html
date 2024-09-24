@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatações de texto</title>
+    <link rel="stylesheet" href="estilo-ex020.css">
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    
+    <h2>Negrito/Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (ela não tem semântica)</p>
+    <p>Nesta frase, tenho <strong>termo em destaque</strong> usando a tag STRONG (que tem semântica)</p>
+    
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag i (ela não tem semântica)</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag em (que tem semântica)</p>
+
+    <h2>Texto marcado</h2>
+    <p>podemos criar também <mark>um texto marcado</mark> usando a tag mark</p>
+    <p>podemos também trocar de cor <mark style="background-color: lawngreen;">o texto marcado</mark>.</p>
+
+    <h2>Texto grande e texto pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small>. Para grande usamos a tag big, mas esla esta obsoleta, e para o pequeno usamos a tag small.</p>
+
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele dece ser lido, mas não considerado. Usando a tag del</p>
+
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois. Usando a tag ins</p>
+    <p>Existe também o <u>texto sublinhado</u> com a tag u (mas ela não tem semântica)</p>
+
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+ 3. Usando a tag sup</p>
+
+    <h2>Texto subscrito</h2>
+    <p>Para escrever coisas do tipo H<sub>2</sub>O. Usando a tag sub</p>
+
+    <h2>Código fonte / Pré-formatado</h2>
+    <p>Podemo fazer <code>texto mono espaçado</code>. Usando a tag code</p>
+
+    <h2>Indentação</h2>
+    <p>
+        <pre>
+            <code>
+                num = int(input('Digite um número'))
+                print('Seu número é {num}')
+            </code>
+    </pre>
+
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>. Usando a tag q</p>
+
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&newbks=0&hl=pt-BR&source=newbks_fb&redir_esc=y">
+        A difetença entre elementos online e um bloco de texto é importante.
+        Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hypper Text Murkp Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. E estou amando!</p>
+
+    <h2>Texto ivertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.(ltr volta ao normal).</bdo></p>
+</body>
+</html>
