@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+caption, td, tr, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+col.cnome {
+    background-color: rgb(205, 103, 153);
+}
+col.cgrupo {
+    background-color: aquamarine;
+}
+.gray {
+    background-color: rgb(180, 180, 180);
+}
