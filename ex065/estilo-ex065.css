@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+caption {
+    font-size: 1.2em;
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+thead {
+    border: 1px solid black;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    color: white;
+    background-color: rgb(205, 103, 153);
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: aquamarine;
+}
+div#container {
+    overflow-x: auto;
+}
