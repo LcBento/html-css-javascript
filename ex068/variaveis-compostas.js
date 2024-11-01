@@ -12,3 +12,11 @@ num.sort()   //coloca os números em ordem crescente
 console.log(`os vetores são ` + num)
 console.log(`O vetor tem ${num.length} posições`)
 console.log(`O vetor na posição 0 é ` + num[0])
+
+console.log(`Agora vamos buscar um valor`)
+let pos = num.indexOf(2)
+if (pos == -1) {
+    console.log(`O valor não foi encontrado!`)
+} else {
+    console.log(`O valor 2 está na posição ${pos}`)
+}
